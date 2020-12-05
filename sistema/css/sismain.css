@@ -1,0 +1,570 @@
+/*GENERAL*/
+
+@import url('https://fonts.googleapis.com/css2?family=Allan&family=Anton&family=Black+Ops+One&family=Marmelad&family=Nunito&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Frijole&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+
+
+/************************/
+
+.nosotros{
+     font-family: 'Fjalla One', sans-serif;
+    color: black;
+    border-radius: 8px;
+    border: 5px solid rgba(248,93,3,0.89); 
+    text-transform: none;
+}
+
+.imagenlogo{
+    margin-top:-8px;
+    margin-left: 5px;
+}
+
+h1 {
+    font-size: 37px;
+    font-weight: 700;
+    width: 414px;
+    letter-spacing: 0.040em;
+    border: 1px solid rgba(47, 46, 47, 0.59);
+}
+.filter{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 90pt;
+}
+
+p.desc-text{
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
+}
+.text-content.container {
+    margin-top: 65px;
+    margin-bottom: -51px;
+}
+.right-text p{
+    text-align: left !important;
+    border-bottom: 1px solid;
+    padding: 10px 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;  
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+.fa-2x{
+    padding-top: 5px;
+}
+
+
+li.item{
+    position: relative; 
+    width: 100%; /* for IE 6 */
+    background: rgba(248,93,3,0.95);
+}
+
+
+b{
+    color: red;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.clear::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1, h2, p, span, a {
+    color: #2f2e2f;
+    margin: 0;
+    padding: 0;
+}
+
+.limit {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.color_animation {
+    text-decoration: initial;
+       font-family: 'Fjalla One', sans-serif;
+    /* word-spacing: 5px; */
+    transform: scaleX(1.03);
+    margin-right: -30px;
+    margin-left: -30px !important;
+    color: white !important;
+    -webkit-transition: color 0.3s ease-out;
+    -moz-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    -ms-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+.color_animation:hover{
+    color: #F85D03 !important;
+}
+/*========================
+    NAV
+=========================*/
+div#bs-example-navbar-collapse-1 {
+    height: 368px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none !important;
+}
+.navbar-brand{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 34px !important;
+    text-decoration: none;
+    color: white !important;
+}
+
+.navactive{
+   border-bottom: 1px solid #F85D03;
+}
+
+/*========================
+aumentar la letra del nav
+=========================*/
+nav {
+    background:  #000000 !important;
+    font-size: 23.7px;
+    color: white !important;
+}
+
+li{
+    color: white !important;
+    /*padding-left: 10px;*/
+    word-spacing: 5px !important;
+}
+
+.ui{
+transform:scaleY(1.2);
+
+}
+.sociale{
+ font-size: 29px;
+ color: #FFFFFF;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+/*========================
+INTRO CONTAINER
+=========================*/
+.starter_container {
+    margin-top: 20px;
+    padding: 0;
+    min-width: 100%;
+    height: 100%;
+    background: url('../../Imagenes/fondo7.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    background-position: center; 
+
+}
+
+.follow_container {
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 15%;
+    text-align: center;
+  background: rgba(0,0,0,0.32);
+  border-radius: 5px;
+}
+
+.starter_follow {
+    display: inline-block;
+    width: 80%;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 0;
+
+}
+.top-title{
+    color: white;
+    position: center;
+    padding: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 70px;
+    font-weight: 300;
+    border-radius: 5px;
+     /*background: rgba(0,0,0,0.29);*/
+   
+ }
+.second-title {
+    font-weight: lighter; 
+    font-size: 24px; 
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.white{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+/* ========================
+    IMAGE INTRO BANNER CONTENT
+   =========================*/
+
+
+
+
+div.fas {
+    display: block;
+    padding: 30px 0px 25px 0px;
+}
+/*========================
+DESCRIPTION BODY CONTENT
+======== ver la parte del medio si aumenta o disminuye con padding=================*/
+.description_content {
+    padding: 160px 0;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    z-index: 11;
+    position: relative;
+    background: #F5F5F5;
+    text-align: center; 
+}
+.description_body {
+    margin: 45px auto;
+    max-width: 300px;
+}
+h1 {
+    font-size: 24px;
+    font-weight: 900;
+    width: 225px;
+    letter-spacing: 0.040em;
+    border: 8px solid #2f2e2f;
+    display: inline-block;
+    padding: 7px 16px;
+    margin: 0;
+}
+/*========================
+IMAGE DESCRIPTION BODY CONTENT
+=========================*/
+.picture_content {
+    display: none;
+}
+/*========================
+FIRST FOOTER CONTENT
+=========================*/
+.first_footer {
+    background-color: #1e1e1e;
+    text-align: center;
+}
+.social_heading,
+.social_info {
+    display: block;
+}
+.social_heading {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.020em;
+    color:  #FFFFFF;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+.social_info, 
+.social_icons {
+    margin: 18px 0 70px 0;
+}
+
+.social_info a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.200em;
+    line-height: 1.200em;
+    color: #fff;
+    display: inline-block;
+    margin: 0 auto;
+    width: 700px;
+}
+
+.social_info a:hover {
+    color: #F85D03;
+}
+
+.social_icons {
+    padding: 0;
+}
+
+.social_icons li {
+    list-style: none;
+    display: inline-block;
+    padding: none;
+}
+
+.social_icons li:nth-child(1),
+.social_icons li:nth-child(2),
+.social_icons li:nth-child(3) {
+    margin: 0 50px 0 0;
+}
+.social_icons li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.social_icons li a:hover {
+    color: #F85D03;
+}
+
+.direction a{
+    color: white !important;
+}
+
+/*========================
+SECOND FOOTER CONTENT
+=========================*/
+
+footer.sub_footer {
+    background-color: #000000;
+    padding: 5px;
+}
+
+p.sub-footer-text{
+    color: #FFFFFF;
+    font-size: 15pt;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+p.sub-footer-text a{
+      top: 50%;
+    color: #BDBDBD;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+}
+p.sub-footer-text a:hover{
+    color: #F85D03;
+}
+
+
+
+
+
+
+
+div.fa {
+    display: block;
+    padding: 30px 0px 25px 0px;
+}
+
+div .fa-2x {
+    padding: 30px 0px 25px 0px;
+}
+
+
+.navbar-default {
+    border: 0 !important;
+}
+
+/*========================
+MEDIA QUERIES MOBILE
+=========================*/
+
+@media (max-width: 660px) {
+    .top-title {
+        font-size: 67px;
+    }
+
+    .second-title {
+        font-size: 21px;
+    }
+
+    .background_content h1 {
+        width: 80%;
+        font-size: 2.5em;
+    }
+
+    .form-btn {
+        margin: 0px auto;
+        /* display: block; */
+    }
+}
+/*========================
+MEDIA QUERIES TABLET
+=========================*/
+
+
+    @media (min-width: 400px) { 
+    .starter_container {
+        height: 60%;
+    }
+    .background_content h1 {
+      top: 33%;
+    }  
+}
+
+/*========================
+MEDIA QUERIES TABLET
+=========================*/
+
+    @media (min-width: 660px) { 
+  
+    /*========================
+    NAV
+    =========================*/
+    .navbar-default{
+        height: 70px;
+        padding-top: 10px;
+    }
+
+    nav li{
+        padding-right: -15px;
+    }
+    .navbar-brand{
+            font-family: 'Fjalla One', sans-serif;
+        font-size: 30px !important;
+        transform: scaleY(1.2);
+        
+        text-decoration: none;
+        color: white !important;
+    }
+    .text-content.container {
+    margin-top: 5px;
+    margin-bottom: -51px;
+}
+    nav {
+        position: fixed;
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 55px;
+        z-index: 12;
+        margin: 0;
+        padding: 0;
+        background-color: #1e1e1e;
+        text-align: center;
+    }
+    .logo {
+        display: none;
+    }
+    .main-nav {
+        padding: 0;
+        margin: 18px auto 0 auto;
+    }
+    .main-nav li {
+        display: inline-block;
+        list-style: none;
+        margin: 0 29px 0 29px;
+    }
+    .logo a,
+    .main-nav a {
+        font-size: 0.75000em;
+        font-weight: 700;
+        /* letter-spacing: 0.250em; */
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        text-align: center;
+        padding: 2px 0;
+        transition: color 0.3s ease-in-out;
+    }
+    .main-nav a:hover {
+        color: #6c8f34;
+    }
+   
+
+    
+    /*========================
+     CONTENIDO SOCIAL SIGUENOS
+    =========================*/
+
+    section.social_connect {
+        margin-top: 40px;
+        background-color: black;
+        text-align: center;
+        margin-bottom: 10px;
+  }
+
+    .social_heading {
+        font-size: 23px;
+        margin: 50px 0 0 0;
+    }
+
+    .social_info a {
+        font-size: 24.93px;
+    }
+
+    .social_icons li a {
+        font-size: 30px;
+    }
+
+    .social_info a {
+        display: inline-block;
+        margin: 0 auto;
+        width: 325px;
+    } 
+
+} /*END OF MEDIA QUERY*/
+
+/*========================
+MEDIA QUERIE DESKTOP
+=========================*/
+
+
+
+   /*========================
+    FOOTER
+    =========================*/
+
+    .social_heading {
+        font-size: 30px;
+        margin: 50px 0 0 0;
+    }
+
+    .come_in .social_info a {
+        font-size: 24.93px;
+        display: inline-block;
+        margin: 0 auto;
+        width: 565px;
+    }
+
+    .come_in .social_info {
+        margin-bottom: 25px;
+    }
+
+    .or_call .social_info a {
+        font-size: 24.93px;
+        display: inline-block;
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .social_icons li a {
+        font-size: 30px;
+    }
+
+/*    @media only screen and (max-width: 360px){
+    .text-content.container {
+        margin-top: 25px ;
+        margin-bottom: -51px;
+    }
+    .iniciarsesion {
+        background: #F85D03;
+        padding: 12px;
+        border-radius: 5px;
+        font-size: 18px !important;
+        font-family: 'Fjalla One', sans-serif;
+        color: #FFF;
+    }
+    p {
+        width: 150px !important;
+    }
+} */

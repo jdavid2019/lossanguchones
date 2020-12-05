@@ -1,0 +1,745 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allan&family=Anton&family=Black+Ops+One&family=Marmelad&family=Nunito&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Frijole&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+.ham{
+	background-image: url("../../Imagenes/fondo3.png");
+}
+.producto{
+	width: 20%;
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 4%;
+	margin-top: 2%;
+	margin-bottom: 1.5%;
+	background: #FFFFFF;
+	font-weight: bolder;
+	font-size: 1.2rem;
+	border-radius: 10px;
+	/* border: 3px solid rgba(248,93,3,0.89); */
+	/*-webkit-box-shadow: 5px 5px 5px rgba(0,0,0, 1); 5px 5px 5px rgba(248,93,3, 1);*/
+	padding: 1%;
+	-webkit-box-shadow: 5px 5px 5px rgba(248,93,3, 1);
+	-moz-box-shadow:    5px 5px 5px rgba(248,93,3, 1);
+	box-shadow:        5px 5px 5px rgba(248,93,3, 1);
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+}
+/*.producto:hover{
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}*/
+.producto img{
+	width: 200px;
+	height: 220px;
+	margin:0 auto;
+	border-radius: 5px;
+	/* border-radius: 50%;*/
+	border: 50%;
+	/* 0px 0px 10px rgba(74, 74,74, 0.75);*/
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0, 0);
+	-moz-box-shadow:    0px 0px 10px rgba(0,0,0, 0);
+	box-shadow:         0px 0px 10px rgba(0,0,0, 0);
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+}
+
+/*rotacion*/
+/*.producto img:hover{
+	
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+} */
+.producto a{
+	background-color: #F85D03;
+	padding: 3px;
+	color: white;
+	width: 50%;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 4px;
+}
+.detalles a{
+	background-color: #F85D03;
+	padding: 3px;
+	color: white;
+	width: 50%;
+	padding-left: 40px;
+	padding-right: 20px;
+	border-radius: 4px;
+}
+
+
+.closed{
+	background-color: #F85D03;
+	color:white;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 4px;
+	font-size: 1.3rem;
+
+
+}
+
+.aceptar:hover{
+	background-color: #4a4a4a;
+	cursor: pointer;
+}
+
+
+.nombreproducto{
+	font-family: 'Fjalla One', sans-serif;
+	color: black;	
+}
+
+
+.verdetalles{
+	font-family: 'Fjalla One', sans-serif; 
+	font-size: 20px;
+	text-decoration: none;
+}
+
+/*lupa*/
+
+.box{
+	margin-top: 25px;
+	margin-left: 4%;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+input.src{
+	padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #000000;
+    border: 5px solid #000000;
+    background: #fff url("../../Imagenes/buscador.png") no-repeat 9px center;
+    width: 585px;
+    transition: all .5s;
+}
+
+input.src:hover{
+	width: 1218px;
+	background-color: #fff;
+	border-color: #F85D03;
+	box-shadow: 0 0 5px #6dcff680;
+
+}
+
+.all{
+	margin-top: 70px;
+       font-family: 'Fjalla One', sans-serif;
+    color: black;
+     width: 1218px;
+     margin-left: 50px;
+     text-align: center;
+      background: white;
+    border-radius: 5px;
+    border: 5px solid rgba(248,93,3,0.89); 
+    text-transform: none;
+    -webkit-box-shadow: 5px 5px 5px rgba(248,93,3, 1);
+	-moz-box-shadow:    5px 5px 5px rgba(248,93,3, 1);
+	box-shadow:         5px 5px 5px rgba(248,93,3, 1);
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+}
+
+.all:hover{
+	border: 5px solid rgba(248,93,3,0.89); 
+}
+.all2{
+	margin-top: 50px;
+	margin-bottom: 20px;
+     font-family: 'Fjalla One', sans-serif;
+    color: black;
+    font-size: 32px;
+     width: 1218px;
+     background: white;
+     margin-left: 50px;
+     text-align: center;
+    border-radius: 10px;
+    border: 5px solid rgba(255,255,255,0.99);
+    /*border: 5px solid rgba(248,93,3,0.99); */
+    text-transform: none;
+}
+
+.ensaladas{
+	margin-bottom: 50px;
+}
+
+.noencontrado{
+
+	margin-left: 42%;
+	
+}
+
+.fondos{
+	margin-left: 190px;
+	 background: #eee;
+	 width: 70%
+}
+
+.intenta{
+	margin-top: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    color: red;
+    font-size: 22px;
+     margin-left: 35%;
+}
+
+/*navbar 2*/
+#menu2{
+	background: black;
+}
+
+#menu2 ul{
+	list-style: none;
+	margin: 5px;
+	margin-left: 30px;
+	padding: 0;
+	margin-top: 0;
+}
+/*para que se vuelvan todos el la misma fila*/
+#menu2 ul li{
+	display: inline-block;
+	
+}
+
+#menu2 ul li a{
+  color: white;
+  display: block;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+}
+
+#menu2 ul li a:hover{
+background-color: #F85D03;
+}
+
+
+.green{
+    color: green;
+}
+.red{
+    color: red;
+    margin-left: 37px;
+}
+
+
+
+
+/*detallesproduccliente.php*/
+
+
+.imagc {
+ height: 450px;
+ width: 380px;
+ border-radius: 8px;
+ -webkit-box-shadow: 5px 5px 5px rgba(248,93,3, 1);
+    -moz-box-shadow:    5px 5px 5px rgba(248,93,3, 1);
+    box-shadow:        5px 5px 5px rgba(248,93,3, 1);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+}
+
+.imagc:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
+
+.bloqueimg{
+	margin-top: 20px;
+	margin-left: 60px;
+}
+.bloquedetalle{
+	border-radius: 8px;
+	float: right;
+	margin-right: 40px;
+	margin-top: -450px;
+	padding-top: 80px;
+	width: 810px;
+	height: 450px;
+	padding-left: 6px;
+   -webkit-box-shadow: 5px 5px 5px rgba(248,93,3, 1);
+    -moz-box-shadow:    5px 5px 5px rgba(248,93,3, 1);
+    box-shadow:        5px 5px 5px rgba(248,93,3, 1);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+}
+
+.bloquedetalle:hover{
+	-webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+}
+.titulos{
+	padding-right: 10px;
+   color: black;
+}
+.apunte{
+	padding: 8px;
+    font-family: 'Fjalla One', sans-serif;
+    cursor: pointer;
+    font-size: 25px;
+    width: 800px;
+   
+}
+
+.detalles2{
+ padding: 8px;
+ margin-top: 15px;
+}
+
+.detallesp a{
+	background-color: #F85D03;
+	padding: 8px;
+	color: white;
+	margin-left: 0px;
+	padding-right: 20px;
+	border-radius: 4px;
+	margin-top: 8px;
+}
+
+.detallesp{
+	font-size: 20px;
+	margin-top: 15px;
+	padding: 8px;
+}
+.detalles2 a{
+    background-color: red;
+    color: white;
+    width: 50%;
+    padding: 8px;
+    margin-left: 4px;
+    padding-right: 20px;
+    border-radius: 4px;
+}
+.detalles2{
+	font-size: 20px;
+}
+.vcarrito{
+	margin-top: 19px;
+	margin-left: 10px;
+}
+.acarrito{
+	text-decoration: none;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 20px;
+
+}
+.nop{
+	text-align: center;
+    cursor: not-allowed;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.vcarrito a{
+    background-color: red;
+    color: white;
+    width: 50%;
+    padding: 8px;
+    margin-left: 0px;
+    padding-right: 20px;
+    border-radius: 4px;
+}
+.greens{
+    color: green;
+
+}
+.alld{
+    margin-top: 10px;
+       font-family: 'Fjalla One', sans-serif;
+    color: black;
+     width: 1218px;
+     margin-left: 50px;
+     text-align: center;
+      background: white;
+    border-radius: 5px;
+    border: 5px solid rgba(248,93,3,0.89); 
+    text-transform: none;
+    -webkit-box-shadow: 5px 5px 5px rgba(248,93,3, 1);
+    -moz-box-shadow:    5px 5px 5px rgba(248,93,3, 1);
+    box-shadow:         5px 5px 5px rgba(248,93,3, 1);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+}
+
+
+/*carrito*/
+.titulocarrito{
+	margin-top: 30px;
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+     width: 1218px;
+     margin-left: 50px;
+     text-align: center;
+      background: white;
+    border-radius: 5px;
+    border: 5px solid rgba(248,93,3,0.89); 
+    text-transform: none;
+    -webkit-box-shadow: 5px 5px 5px rgba(248,93,3, 1);
+	-moz-box-shadow:    5px 5px 5px rgba(248,93,3, 1);
+	box-shadow:         5px 5px 5px rgba(248,93,3, 1);
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+}
+.eliminado{
+	text-decoration: none;
+}
+
+.bloqueimg{
+	margin-top: 20px;
+	margin-left: 60px;
+}
+.imagcarrito {
+ height: 450px;
+ width: 380px;
+ border-radius: 8px;
+ -webkit-box-shadow: 5px 5px 5px rgba(248,93,3, 1);
+    -moz-box-shadow:    5px 5px 5px rgba(248,93,3, 1);
+    box-shadow:        5px 5px 5px rgba(248,93,3, 1);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+}
+
+.imagcarrito:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
+
+.datcarriton{
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	font-size: 18pt;
+}
+.datcarrito{
+	font-family: 'Fjalla One', sans-serif;
+	color: green;
+}
+.datose{
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+}
+.cantidad{
+	margin-top: 5px;
+	color: black;
+	border-radius: 5px;
+}
+
+.regulador{
+	width: 180px;
+}
+
+.bundle-qty .qty {
+    border: none;
+    padding: 7px;
+    width: 44px !important;
+    text-align: center;
+    border-radius: 5px;
+}
+.bundle-qty .qty-minus, .bundle-qty .qty-plus {
+    padding: 5px 10px 10px 10px;
+    border: none;
+    background: #dbe0e3;
+    border-radius: 5px;
+    font-size: 30px;
+    vertical-align: middle;
+}
+.bundle-qty .qty-minus, .bundle-qty .qty-plus {
+    padding: 5px 10px 10px 10px;
+    border: none;
+    background: #dbe0e3;
+    border-radius: 5px;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.bundle-qty .qty {
+    border: none;
+    padding: 7px;
+    width: 44px !important;
+    text-align: center;
+    border-radius: 5px;
+}
+.subtotal{
+	color: green;
+	font-family: 'Fjalla One', sans-serif;
+	margin-bottom: 15px;
+}
+
+div{
+	font-family: 'Fjalla One', sans-serif;
+	color: green;
+}
+
+
+/*contador automatico navbar*/
+.count {
+          position: absolute;
+          left: 34px;
+          margin-left: -50px;
+          right: 0;
+          font-size: 9px;
+          width: 24px;
+          height: 22px;
+          line-height: 20px;
+          border-radius: 45%;
+          display: block;
+          text-align: center;
+          background: #F85D03;
+          color: #fff;
+          -webkit-transition: .4s all ease-in-out;
+          -o-transition: .4s all ease-in-out;
+          transition: .4s all ease-in-out; 
+      }
+.count:hover {
+        -webkit-box-shadow: 0 3px 10px -4px rgba(0, 0, 0, 0.3) !important;
+        box-shadow: 0 3px 10px -4px rgba(0, 0, 0, 0.3) !important;
+        margin-top: -12px; 
+    }
+
+ /*sin productos*/
+
+ .sinproductos{
+	margin-top: 25px;
+	margin-left: 550px;
+}
+
+.ceroproductos{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 29px;
+	color: red;
+}
+
+.totcero{
+	margin-top: 8px;
+	color: black;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+
+.redireccioncliente{
+	text-decoration: none;
+
+}
+
+.content2{
+	margin-top: 30px;
+	text-align: center;
+	color: black;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 18px;
+}
+
+/*terminos y condiciones*/
+.seeterms{
+	margin-top: 10px;
+	margin-left: 33%;
+
+}
+.bv{
+	margin-left: 39px;
+	color: black;
+}
+.deacuerdo{
+	margin-top: 15px;
+	margin-left: 29%;
+}
+
+.contenidoch {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 19px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.contenidoch  input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  margin-left: 8px;
+  height: 25px;
+  width: 25px;
+  background-color: #4a4a4a;
+}
+/* On mouse-over, add a grey background color */
+.contenidoch:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.contenidoch input:checked ~ .checkmark {
+  background-color: #F85D03;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.contenidoch input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.contenidoch .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.seeterms2{
+	border-radius: 10px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 19px;
+	padding: 8px;
+	width: 450px;
+	color: #FFFFFF;
+	font-weight: 630;
+	background: #F85D03;
+	transform: scaleY(1.0);
+}
+
+.volver{
+margin-top: 20px;
+
+}
+
+.proconorden{
+	margin-top: 10px;
+	border-radius: 10px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 19px;
+	padding: 8px;
+	padding-left: 130px;
+	padding-right: 148px;
+	margin-left: 33.2%;
+	color: #FFFFFF;
+	font-weight: 630;
+	background: #F85D03;
+	text-decoration: none;
+}
+
+.redireccioncliente{
+	margin-top: 10px;
+	border-radius: 10px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 19px;
+	padding: 8px;
+	padding-left: 70px;
+	padding-right: 70px;
+	margin-left: 33.2%;
+	color: #FFFFFF;
+	font-weight: 630;
+	background: #8B0000;
+	
+}
+
+
+
+/*detalle de total de la orden*/
+
+.titulodetcarrito{
+	margin-top: 40px;
+       font-family: 'Fjalla One', sans-serif;
+    color: black;
+     width: 908px;
+     margin-left: 20px;
+     text-align: center;
+      background: white;
+    border-radius: 5px;
+    border: 5px solid rgba(248,93,3,0.89); 
+    text-transform: none;
+    -webkit-box-shadow: 5px 5px 5px rgba(248,93,3, 1);
+	-moz-box-shadow:    5px 5px 5px rgba(248,93,3, 1);
+	box-shadow:         5px 5px 5px rgba(248,93,3, 1);
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+}
+
+/*adicional*/
+
+.adicional{
+	margin-top: 30px;
+}
+
+.h3adicional{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 20px;
+	margin-left: 40px;
+}
+
+.contendeli{
+	margin-bottom: 20px;
+}
+.endeli{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 22px;
+	color: black;
+	
+}
+.atend{
+	margin-top: 15px;
+}
+.moneys{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 19px;
+}
+
+.procederorden{
+	border-radius: 10px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 19px;
+	padding: 8px;
+	color: #FFFFFF;
+	font-weight: 630;
+	width: 450px;
+	background: #F85D03;
+	transform: scaleY(1.0);
+}
+
+.tyc{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 24px;
+	color: black;
+}
+.indicador{
+	margin-top: 10px;
+	width: 510px;
+	text-align: left;
+	font-size: 16px;
+	margin-bottom: 20px;
+	color: black;
+}
+
+.entendido2{
+	font-family: 'Fjalla One', sans-serif;
+	color: white;
+}

@@ -1,0 +1,59 @@
+.go-top-container{
+	position: fixed;
+	bottom: 0.8rem;
+	right: 0.8rem;
+	width: 3.6rem;
+	height: 3.6rem;
+	z-index: 216654644644;
+}
+
+.go-top-button{
+	width: 0rem;
+	height: 0rem;
+	background:  #F85D03;
+	border-radius: 50%;
+	cursor: pointer;
+	top : 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+    z-index: 21;
+}
+
+.go-top-button i{
+	position: absolute;
+	font-size: 1.7rem;
+	top: 48%;
+	left: 50%;
+	transform: translate(-50%,-50%) scale(0);
+	color: #FFFFFF;
+	transition: .6s;
+}
+
+.show{
+	z-index: 11;
+}
+.show .go-top-button{
+	animation: popup .3s ease-in-out;
+	width: 3.8rem;
+	height: 3.8rem;
+	z-index: auto;
+}
+
+.show i{
+	transform: translate(-50%,-50%) scale(1);
+}
+
+@keyframes popup{
+	0%{
+		width: 0rem;
+		height: 0rem;
+	}
+	50%{
+		width: 8rem;
+		height: 8rem;
+	}
+	100%{
+		width: 6.6rem;
+	    height: 6.6rem;
+	}
+}

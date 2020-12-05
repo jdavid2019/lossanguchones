@@ -1,0 +1,20 @@
+Swal.fire({
+    title : '<b class="rojo">¡Usuario o contraseña incorrecta!</b>',
+    html:'<b style="color:black;">Verifique por favor.</b>',
+  //  icon: 'warning',
+    confirmButtonText: '<a class="errorcon" href="index.php">Entendido</a>',
+    padding: '-1rem',
+  //   backdrop: false,
+   // grow: 'column',
+    timer: '500000',
+   // background:'#f2dede',
+    timerProgressBar : true,
+    toast : true,
+    position : 'center-end',
+    showConfirmButton : true,
+    confirmButtonColor:'#F85D03',
+    confirmButtonArialLabel: 'Confirmar',
+   // stopKeydownPropagation: true,
+    imageUrl: '../Imagenes/kikeredondo1.png',
+    imageWidth : '38px'
+    });

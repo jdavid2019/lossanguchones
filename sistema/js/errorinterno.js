@@ -1,0 +1,20 @@
+Swal.fire({
+    title : '<b class="rojo">¡Error del Sistema!</b>',
+    html:'<b style="color:black;">Refresque la página por favor.</b>',
+  //  icon: 'warning',
+    confirmButtonText: '<a class="errorcon" href="registrarproducto.php">Refrescar</a>',
+    padding: '-1rem',
+  //   backdrop: false,
+   // grow: 'column',
+    timer: '500000',
+   // background:'#f2dede',
+    timerProgressBar : true,
+    toast : true,
+    position : 'center-end',
+    showConfirmButton : true,
+    confirmButtonColor:'#F85D03',
+    confirmButtonArialLabel: 'Confirmar',
+   // stopKeydownPropagation: true,
+    imageUrl: '../../Imagenes/kikeredondo1.png',
+    imageWidth : '38px'
+    });

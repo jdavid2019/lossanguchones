@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+.sectiond{
+  background: url('../../Imagenes/fondo2.png') no-repeat center center;
+}
+.alldop{
+    margin-top: 50px;
+       font-family: 'Fjalla One', sans-serif;
+    color: black;
+     width: 1098px;
+     margin-left: 110px;
+     text-align: center;
+      background: white;
+    border-radius: 5px;
+    border: 5px solid rgba(248,93,3,0.89); 
+    text-transform: none;
+    -webkit-box-shadow: 5px 5px 5px rgba(248,93,3, 1);
+    -moz-box-shadow:    5px 5px 5px rgba(248,93,3, 1);
+    box-shadow:         5px 5px 5px rgba(248,93,3, 1);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+}
+
+.diseniar{
+    text-decoration: none;
+    color: white;
+}
+
+
+.rojo{
+    color: #8B0000;
+}
+
+
+form{
+  /* border-color: #F85D03; border-width: 1px; border-style: solid;
+   border-radius: 15px; */
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 1110px;
+    height: 827px;
+    margin-top: 2px;
+    background: rgba(255,255,255, 0.4);
+}
+
+.left {
+    margin-top: 50px;
+    padding-left: 1px;
+    padding-top: 10px;
+    margin-left: 57px;
+    float: left;
+    position: relative;
+    width: 45%;
+    height: 729px;
+    background: transparent;
+   border-width: 3px;
+   border-style: solid;
+   border-radius: 15px;
+}
+
+.right {
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-left: -15px;
+    margin-left: 40px;
+    position: relative;
+    float: left;
+    width: 45%;
+    height: 728px;
+    background: transparent;
+     border-width: 3px;
+   border-style: solid;
+   border-radius: 15px;
+background: rgba(255,255,255, 0.2);
+}
+
+.sub{
+   margin-left: 10px;
+   margin-top: 20px;
+  height: 495px;
+  background: rgba(255,255,255, 0.2);
+}
+
+.labels1{
+    font-family: 'Fjalla One', sans-serif;
+  padding-top: 18px;
+  padding-left: 24px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: black;
+}
+.labels{
+    font-family: 'Fjalla One', sans-serif;
+  padding-top: 10px;
+  padding-left: 24px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+
+input[type=text]{
+   padding: 8px;
+   margin-left: 24px;
+    font-size: 18px;
+    outline: none;
+    width: 400px;
+     font-family: 'Fjalla One', sans-serif;
+   /* margin-left: 20px;*/
+  /*   border-color: #F85D03; */
+    border-width: 3px;
+   border-style: solid;
+   border-radius:5px;
+}
+
+
+
+select{
+   padding: 8px;
+   margin-left: 24px;
+    font-size: 18px;
+    outline: none;
+    width: 400px;
+     font-family: 'Fjalla One', sans-serif;
+   /* margin-left: 20px;*/
+    border-color: #000000;
+    border-width: 3px;
+   border-style: solid;
+   border-radius:5px;
+}
+
+table{
+  margin-top: 10%;
+  border-width: 3px;
+   border-style: solid;
+   border-collapse: collapse;
+   border-radius: 1em;
+   overflow: hidden;
+   border-color: #000000;
+}
+.sub2{
+   margin: 20px;
+  height: 495px;
+ background: rgba(255,255,255, 0.60);
+}
+
+.theadtitulo{
+  background: #F85D03;
+ font-family: 'Fjalla One', sans-serif;
+ font-size: 20px;
+  color: white;
+}
+
+
+
+th{
+  padding:18px;
+  border-radius: 9px;
+}
+
+.st{
+  padding-right: 145px;
+}
+
+.tbodys{
+ font-family: 'Fjalla One', sans-serif;
+ font-size: 18px;
+  color: black;
+}
+
+.tds{
+  padding-top: 20px;
+  padding-left: 8px;
+ padding-bottom: 10px;
+ border-bottom: 2px solid black;
+ color: black; 
+}
+.tds1{
+  padding-top: 20px;
+  padding-left: 8px;
+ padding-bottom: 10px;
+ border-bottom: 2px solid black;
+ color: green; 
+}
+.lt{
+  color: black;
+}
+.pedidos{
+    text-align: center;
+    background: #F85D03;
+    width: 420px;
+    margin-left: 30px;
+     font-family: 'Fjalla One', sans-serif;
+     color: white;
+     padding: 8px;
+     font-size: 14pt;
+     border-style: solid;
+     border-radius: 9px;
+}
+
+.cdatosp{
+  margin-top: 40px;
+  font-family: 'Fjalla One', sans-serif;
+  color: black;
+}
+
+.fa-hamburger{
+  font-size: 152px;
+}
+
+.asterisco{
+ color: red;
+ }
+
+ .paypals{
+  margin-top: -140px;
+  margin-left: 30px;
+  width: 418px;
+ }

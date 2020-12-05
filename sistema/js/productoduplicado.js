@@ -1,0 +1,20 @@
+Swal.fire({
+    title : '<b class="rojo">¡Error,nombre del producto duplicado!</b>',
+    html:'<b style="color:black;">Ingrese otro por favor.</b>',
+  //  icon: 'warning',
+    confirmButtonText: '<a class="errorcon" href="registrarproducto.php">Entendido</a>',
+    padding: '-1rem',
+  //   backdrop: false,
+   // grow: 'column',
+    timer: '500000',
+   // background:'#f2dede',
+    timerProgressBar : true,
+    toast : true,
+    position : 'center-end',
+    showConfirmButton : true,
+    confirmButtonColor:'#F85D03',
+    confirmButtonArialLabel: 'Confirmar',
+   // stopKeydownPropagation: true,
+    imageUrl: '../../Imagenes/kikeredondo1.png',
+    imageWidth : '38px'
+    });

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+.text-success {
+    color: #28a745!important;
+}
+
+.chekeo{
+	margin-top: 100px;
+}
+.display-3 {
+    font-size: 4.9rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-left: 595px;
+}
+
+.exitosoimg{
+   height: 550px;
+   width: 550px;	
+  margin-top: -19px;
+ margin-left: 385px;
+}
+
+.gracias{
+	margin-top: 10px;
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif; 
+	color: black;
+	font-size: 38px;
+}
+
+.completado{
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif; 
+	color: black;
+}
+
+.bot{
+	margin-left: 350px;
+}
+.pedibotonoesa{
+    background-color: #F85D03;
+    color: white;
+    width: 920px;
+    text-align: center;
+    height: 40px;
+    margin-top: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 149px;
+    padding-right: 149px;
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.pedibotonoesa:hover{
+  background-color: rgba(248,93,3,0.90);
+}
+.pedibotonoesb{
+    background-color: #8B0000;
+    color: white;
+    width: 920px;
+    text-align: center;
+    height: 40px;
+    margin-top: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 179px;
+    padding-right: 179px;
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.pedibotonoesc{
+    background-color: green;
+    color: white;
+    width: 1390px;
+    text-align: center;
+    height: 40px;
+    margin-top: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 140px;
+    padding-right: 140px;
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.pedibotonoesc:hover{
+ background-color: rgba(0,255,0,0.60);
+}
+
+.pedibotonoesb:hover{
+	background-color: rgba(139,0,0,0.60);
+}
